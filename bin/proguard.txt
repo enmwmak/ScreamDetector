@@ -1,0 +1,30 @@
+# view AndroidManifest.xml #generated:53
+-keep class edu.polyu.screamalert.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class edu.polyu.screamalert.SoundProcessingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class edu.polyu.screamalert.SoundProcessingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class edu.polyu.screamalert.SoundProcessingSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class edu.polyu.screamalert.SoundProcessingStartupReceiver { <init>(...); }
+
+# view res/layout/main.xml #generated:23
+-keep class edu.polyu.utils.WaveformView { <init>(...); }
+
+# onClick res/layout/main.xml #generated:85
+-keepclassmembers class * { *** bgClick(...); }
+
+# onClick res/layout/main.xml #generated:62
+-keepclassmembers class * { *** calibrateClick(...); }
+
+# onClick res/layout/main.xml #generated:106
+-keepclassmembers class * { *** settingClick(...); }
+
+# onClick res/layout/main.xml #generated:74
+-keepclassmembers class * { *** startStopClick(...); }
+

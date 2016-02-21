@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scream Detector</string>
+    <string name="title">Personal Security and\nMonitoring System</string>
+    <string name="characteristic">You are</string>
+    <string name="chooseCharacter">Choose your gender</string>
+    <string name="femaleOrChild">Female/Child</string>
+    <string name="male">Male</string>
+    <string name="selectCharacterTitle">Welcome</string>
+    <string name="selectCharacterMsg">Please select your gender to start</string>
+    <string name="invalidSelection">Invalid Selection</string>
+    <string name="invalidSelectMsg">Please choose a valid option and try again</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="startStopStart">Start</string>
+    <string name="startStopStop">Stop</string>
+    <string name="runningInBkg">Running in background</string>
+    <string name="runInBg">Run in background</string>
+    <string name="calibrateMsg">Please keep silent during the calibration process…</string>
+    <string name="recordFiles">Record audio events to files</string>
+   	<string name="setting">Setting</string>
+   	<string name="adSetting">Advanced Settings</string>
+    <string name="sysStatusIdle">System Status: Idle</string>
+    <string name="sysStatusForeground">System Status: Running in foreground</string>
+    <string name="sysStatusBackground">System Status: Running in background</string>
+    <string name="energy">Waveform energy</string>
+        
+    <string name="abtCtgTitle">About this app</string>
+    <string name="abtTitle">About</string>
+    <string name="credits">Developed by:\n - Dr Man-Wai MAK\n - Henry Wing-Lung LEUNG\n\nThe Hong Kong Polytechnic University</string>
+    <string name="smsCtgTitle">SMS on Scream Detection</string>
+    <string name="enableSMSTtitle">Status</string> 
+    <string name="enableSMSDescription">Enable to send SMS when scream sound is detected. Additional charges may incur depending on your service provider</string>
+    <string name="phoneNoTitle">Phone Number</string>
+    <string name="phoneNoDescription">Enter recipient\'s phone number</string>
+    <string name="enableCallTitle">Enable Phone Call</string>
+    <string name="enableCallDescription">Check to call a phone number when scream is detected</string>
+    <string name="emailCtgTitle">Email on Screen Detection</string>
+    <string name="enableEmailTitle">Enable Email Sending</string>
+    <string name="enableEmailDescription">Check to send an email when scream is detected</string>
+    <string name="emailToAddressTitle">Email Destination Address</string>
+    <string name="emailToAddressDescription">Enter the destination email address</string>
+    <string name="emailFromAddressTitle">Email Sender Address</string>
+    <string name="emailFromAddressDescription">Currently only support GMAIL account</string>
+    <string name="emailFromPasswordTitle">Email Account Password</string>
+    <string name="emailFromPasswordDescription">Input your email account password</string>
+    <string name="sensitivityCtgTitle">Sensitivity of Detection</string>
+    <string name="sensitivityTitle">Sensitivity</string>
+    <string name="sensitivityDescription">Configure sensitivity of scream detection</string>
+    <string name="logfileCtgTitle">Log File</string>
+    <string name="logScoreTitle">Logging event scores</string>
+    <string name="logScoreDescription">Check this box for logging event scores</string>
+    <string name="saveEventTitle">Saving sound events</string>
+    <string name="saveEventDescription">Check this box for saving sound events\n to files</string>
+    
+    <string name="running">is running</string>
+    <string name="configure">Tap to stop or configure</string>
+    
+    <string-array name="characterArray">
+        <item>---Choose your gender---</item>
+        <item>Female (or Child)</item>
+        <item>Male</item>
+    </string-array>
+    
+</resources>

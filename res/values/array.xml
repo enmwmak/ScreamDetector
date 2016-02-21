@@ -1,0 +1,7 @@
+<resources>
+	<string-array name="listArray">
+		<item>High</item>
+		<item>Medium</item>
+		<item>Low</item>
+	</string-array>
+</resources>
