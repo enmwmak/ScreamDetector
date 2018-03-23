@@ -180,7 +180,7 @@ public class MFCC {
 				num1 += this.mult[k][i]*bin[i];
 			}
 
-			for (int i = cbin[k]; i <= cbin[k + 1]; i++) {
+			for (int i = cbin[k] + 1; i <= cbin[k + 1]; i++) {
 				//double tmp2 = (double)((double)(cbin[k+1]-i) / (double)(cbin[k + 1] - cbin[k]));
 				//System.out.printf("%d %.3f\n", i, tmp2);
 				num2 += this.mult[k][i]*bin[i];
